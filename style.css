@@ -1,0 +1,124 @@
+/* google font link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+
+/* common style  */
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+
+/* header section  */
+
+.header-section {
+    background-color: #264653;
+}
+
+.head-button {
+    color: #FFF;
+    padding: 10px 15px;
+    background-color: #E76F51;
+    border-radius: 5px;
+}
+
+
+/* featured bike section  */
+
+.small-text,
+.head-text h1,
+.head-text p {
+    color: #FFF;
+}
+
+.head-text p,
+.small-text {
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.feature-bike-img img {
+    width: 288px;
+    height: 243px;
+}
+
+.gray-bike {
+    filter: grayscale(100%);
+}
+
+
+/* clints section  */
+
+.happy-head {
+    color: #0A0826;
+}
+
+.clints-head {
+    color: #E76F51;
+}
+
+.clint-card {
+    padding: 40px 35px;
+}
+
+.clints-img img {
+    width: 149px;
+    height: 149px;
+}
+
+.checked {
+    color: #E77C40;
+}
+
+.unchecke {
+    color: rgb(79, 52, 17);
+}
+
+.clints-bio {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.clints-bio h5 {
+    color: #23A6F0;
+}
+
+.clints-bio p {
+    color: #252B42;
+}
+
+
+/* footer section  */
+
+footer {
+    background: #0B0D17;
+    height: 280px;
+    border-radius: 15% 0 15% 0;
+}
+
+.items ul li {
+    list-style: none;
+}
+
+.items ul li {
+    float: left;
+}
+
+.items ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #FFF;
+    font-weight: bold;
+}
